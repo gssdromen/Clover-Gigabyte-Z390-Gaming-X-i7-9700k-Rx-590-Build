@@ -114,7 +114,7 @@
 		<key>Timeout</key>
 		<integer>10</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<integer>0</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -470,7 +470,7 @@
 		<key>CustomUUID</key>
 		<string>63BB709F-3805-52BA-A777-3724BA3CCC7E</string>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<true/>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
