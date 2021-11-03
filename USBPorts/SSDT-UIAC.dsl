@@ -12,34 +12,22 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "_UIAC", 0)
                 "port-count", Buffer() { 0x18, 0x00, 0x00, 0x00 },
                 "ports", Package()
                 {
-                      "HS01", Package()
+                      "HS03", Package()
                       {
-                          "name", Buffer() { "HS01" },
-                          "UsbConnector", 3,
-                          "port", Buffer() { 0x01, 0x00, 0x00, 0x00 },
+                          "name", Buffer() { "HS03" },
+                          "UsbConnector", 0,
+                          "port", Buffer() { 0x05, 0x00, 0x00, 0x00 },
                       },
-                      "HS02", Package()
+                      "HS04", Package()
                       {
-                          "name", Buffer() { "HS02" },
-                          "UsbConnector", 3,
-                          "port", Buffer() { 0x02, 0x00, 0x00, 0x00 },
+                          "name", Buffer() { "HS04" },
+                          "UsbConnector", 0,
+                          "port", Buffer() { 0x09, 0x00, 0x00, 0x00 },
                       },
                       "HS05", Package()
                       {
                           "name", Buffer() { "HS05" },
-                          "UsbConnector", 3,
-                          "port", Buffer() { 0x05, 0x00, 0x00, 0x00 },
-                      },
-                      "HS09", Package()
-                      {
-                          "name", Buffer() { "HS09" },
-                          "UsbConnector", 255,
-                          "port", Buffer() { 0x09, 0x00, 0x00, 0x00 },
-                      },
-                      "HS10", Package()
-                      {
-                          "name", Buffer() { "HS10" },
-                          "UsbConnector", 255,
+                          "UsbConnector", 0,
                           "port", Buffer() { 0x0A, 0x00, 0x00, 0x00 },
                       },
                       "SS01", Package()
@@ -53,18 +41,6 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "_UIAC", 0)
                           "name", Buffer() { "SS02" },
                           "UsbConnector", 3,
                           "port", Buffer() { 0x12, 0x00, 0x00, 0x00 },
-                      },
-                      "SS03", Package()
-                      {
-                          "name", Buffer() { "SS03" },
-                          "UsbConnector", 3,
-                          "port", Buffer() { 0x13, 0x00, 0x00, 0x00 },
-                      },
-                      "SS04", Package()
-                      {
-                          "name", Buffer() { "SS04" },
-                          "UsbConnector", 3,
-                          "port", Buffer() { 0x14, 0x00, 0x00, 0x00 },
                       },
                       "SS05", Package()
                       {
